@@ -49,7 +49,7 @@ export default function Todo() {
       <div className="flex items-center mb-4">
         <input
           id="addTodoInput"
-          className="flex-grow p-2 border-b-2 border-gray-300 focus:outline-none bg-transparent focus:border-blue-500"
+          className="flex-grow p-2 border-b-2 border-gray-300 text-white focus:outline-none bg-transparent focus:border-blue-500"
           type="text"
           placeholder="Add Todo"
           value={newTodoText}
