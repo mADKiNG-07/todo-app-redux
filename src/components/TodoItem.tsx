@@ -35,7 +35,7 @@ const TodoItem = (todo: Todo) => {
         <span className="mr-4 text-gray-500">{todo.id}.</span>
         <span
           className={`mr-4 ${
-            todo.completed ? "line-through text-gray-500" : ""
+            todo.completed ? "line-through text-gray-500" : "text-white"
           }`}
         >
           {todo.text}
